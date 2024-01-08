@@ -707,9 +707,7 @@ Given a matrix $R$ of user-item ratings, we want to find factors $U$ and $V$ suc
 
 This is represented by the optimization problem:
 
-$$
-\text{arg min}_{U, V} \sum_{(i,j) \in \text{obs}} (R_{ij} - (UV^T)_{ij})^2 + \lambda \left( \sum_{i} \lVert{U_{i*}}\rVert^2 + \sum_{j} \lVert{V_{j*}}\rVert^2 \right)
-$$
+![equation](https://latex.codecogs.com/gif.latex?%5Ctext%7Barg%20min%7D_%7BU%2C%20V%7D%20%5Csum_%7B%28i%2Cj%29%20%5Cin%20%5Ctext%7Bobs%7D%7D%20%28R_%7Bij%7D%20-%20%28UV%5ET%29_%7Bij%7D%29%5E2%20&plus;%20%5Clambda%20%5Cleft%28%20%5Csum_%7Bi%7D%20%5Cleft%5ClVert%7BU_%7Bi*%7D%7D%5Cright%5CrVert%5E2%20&plus;%20%5Csum_%7Bj%7D%20%5Cleft%5ClVert%7BV_%7Bj*%7D%7D%5Cright%5CrVert%5E2%20%5Cright%29)
 
 Here:
 - $\text{obs}$ represents the set of observed ratings.
