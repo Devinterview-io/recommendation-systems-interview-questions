@@ -1,4 +1,4 @@
-# 50 Fundamental Recommendation Systems Interview Questions in 2025
+# 50 Fundamental Recommendation Systems Interview Questions in 2026
 
 <div>
 <p align="center">
